@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 import Search from "./Search";
 import "./Header.css";
 
-const header = () => {
+const Header = () => {
   return (
     <>
       <Head />
@@ -14,4 +14,4 @@ const header = () => {
   );
 };
 
-export default header;
+export default Header;

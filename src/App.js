@@ -1,16 +1,18 @@
-import { Switch, BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Header from "./common/header/Header";
+import Pages from "./pages/Pages";
 
 function App() {
   return (
     <>
-      <Router>
+      <BrowserRouter>
         <Header />
-        <Switch>
-          <Route path="/" exact />
-        </Switch>
-      </Router>
+        <Routes>
+          <Route path="/" element={<Pages />} />
+        </Routes>
+      </BrowserRouter>
+      ,
     </>
   );
 }
