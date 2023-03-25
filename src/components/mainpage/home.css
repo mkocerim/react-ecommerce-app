@@ -41,4 +41,30 @@
 }
 .homeSlide .box .right {
   width: 30%;
+<<<<<<< HEAD
+=======
+}
+
+/*---------------category-------------*/
+.btn-primary {
+  background: #e94560;
+  padding: 13px 40px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.btn-primary:hover {
+  background: #fff;
+  color: #e94560;
+  border: 1px solid #e94560;
+}
+
+.top {
+  margin-top: 80px;
+}
+
+.mtop {
+  margin-top: 40px;
+>>>>>>> 0afb27a9f1f118cc846b960a8942eb383c9e3df5
 }/*# sourceMappingURL=home.css.map */
