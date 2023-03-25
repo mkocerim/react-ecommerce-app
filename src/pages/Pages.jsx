@@ -1,10 +1,12 @@
 import React from "react";
-import Home from "../components/Home";
+import FlashDeals from "../components/flashDeals/flashDeals";
+import Home from "../components/mainpage/Home";
 
-const Pages = () => {
+const Pages = ({ productItems, cartItem, addToCart }) => {
   return (
     <>
-      <Home />
+      <Home cartItem={cartItem} />
+      <FlashDeals productItems={productItems} />
     </>
   );
 };

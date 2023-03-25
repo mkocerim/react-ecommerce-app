@@ -1,6 +1,7 @@
 import React from "react";
-import Categories from "./mainpage/Categories";
-import SlideCard from "./mainpage/SlideCard";
+import Categories from "./Categories";
+import Slider from "./Slider";
+import "./home.css";
 
 const Home = () => {
   return (
@@ -8,7 +9,7 @@ const Home = () => {
       <section className="home">
         <div className="container d_flex">
           <Categories />
-          <SlideCard />
+          <Slider />
         </div>
       </section>
     </>
