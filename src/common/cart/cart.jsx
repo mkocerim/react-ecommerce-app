@@ -12,7 +12,7 @@ const Cart = ({ cartItem, addToCart, decreaseQyt }) => {
         <div className="container d_flex">
           <div className="cart-details">
             {cartItem.length === 0 && (
-              <h1 className="no-item-added">No Items are Add in Cart </h1>
+              <h1 className="no-items">No Items are Add in Cart </h1>
             )}
             {cartItem.map((item, index) => {
               console.log("CART ITEM", item);

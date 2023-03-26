@@ -11,7 +11,6 @@ function App() {
   const { productItems } = data;
   const [cartItem, setCardItem] = useState([]);
 
-<<<<<<< HEAD
   const addToCart = (product) => {
     const productExit = cartItem.find((item) => item.id === product.id);
     if (productExit) {
@@ -27,8 +26,21 @@ function App() {
     }
   };
 
-=======
->>>>>>> 0afb27a9f1f118cc846b960a8942eb383c9e3df5
+  const decreaseQty = (product) => {
+    const productExit = cartItem.find((item) => item.id === product.id);
+    if (productExit.qty === 1) {
+      setCardItem(cartItem.filter((item) => item.id !== product.id));
+    } else {
+      setCardItem(
+        cartItem.map((item, index) =>
+          item.id === product.id
+            ? { ...productExit, qty: productExit.qty - 1 }
+            : item
+        )
+      );
+    }
+  };
+
   return (
     <>
       <BrowserRouter>
@@ -42,11 +54,14 @@ function App() {
           />
           <Route
             path="/cart"
-<<<<<<< HEAD
             exact
-=======
->>>>>>> 0afb27a9f1f118cc846b960a8942eb383c9e3df5
-            element={<Cart cartItem={cartItem} addToCart={addToCart} />}
+            element={
+              <Cart
+                cartItem={cartItem}
+                addToCart={addToCart}
+                decreaseQyt={decreaseQty}
+              />
+            }
           />
         </Routes>
       </BrowserRouter>

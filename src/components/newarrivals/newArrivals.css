@@ -1,0 +1,16 @@
+.newArrivals .heading img {
+  width: 40px;
+  height: 40px;
+}
+.newArrivals .heading h2 {
+  font-weight: 400;
+}
+.newArrivals .heading-right span {
+  color: #e94560;
+  font-size: 15px;
+  font-weight: 500;
+}
+.newArrivals .heading .box img {
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=newArrivals.css.map */

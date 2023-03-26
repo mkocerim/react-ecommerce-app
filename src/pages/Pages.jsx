@@ -1,16 +1,18 @@
 import React from "react";
 import FlashDeals from "../components/flashDeals/flashDeals";
 import Home from "../components/mainpage/Home";
+import TopCate from "../components/top/topCate";
+import NewArrivals from "../components/newarrivals/newArrivals";
+import Discount from "../components/discount/discount";
 
 const Pages = ({ productItems, cartItem, addToCart }) => {
   return (
     <>
       <Home cartItem={cartItem} />
-<<<<<<< HEAD
       <FlashDeals productItems={productItems} addToCart={addToCart} />
-=======
-      <FlashDeals productItems={productItems} />
->>>>>>> 0afb27a9f1f118cc846b960a8942eb383c9e3df5
+      <TopCate />
+      <NewArrivals />
+      <Discount />
     </>
   );
 };
