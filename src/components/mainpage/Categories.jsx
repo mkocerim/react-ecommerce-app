@@ -43,7 +43,7 @@ const Categories = () => {
       cateName: "Groceries",
     },
     {
-      cateImg: "./category/cat11.png",
+      cateImg: "./images/category/cat11.png",
       cateName: "Books",
     },
   ];

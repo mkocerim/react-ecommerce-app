@@ -15,15 +15,15 @@ const Head = () => {
             <label htmlFor="">Theme FAQ`s </label>
             <label htmlFor="">Need Helps</label>
             <span>
-              <i className="fa fa-flag"></i>
+              <i className="fa fa-flag"></i> 🏳️‍⚧️
             </span>
             <label htmlFor="">EN</label>
             <span>
-              <i className="fa fa-flag"></i>
+              <i className="fa fa-flag"></i>🏳️‍⚧️
             </span>
             <label htmlFor="">DE</label>
             <span>
-              <i className="fa fa-flag"></i>
+              <i className="fa fa-flag"></i>🏳️‍⚧️
             </span>
             <label htmlFor="">TR</label>
           </div>

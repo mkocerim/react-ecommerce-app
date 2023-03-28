@@ -48,7 +48,7 @@ const FlashCard = ({ productItems, addToCart }) => {
                   <span className="discount">{items.discount}%Off</span>
                   <img src={items.cover} alt="" />
                   <div className="product-like">
-                    <label htmlFor="">0</label> <br />
+                    <label htmlFor="">{count}</label> <br />
                     <i className="fa-regular fa-heart" onClick={increment}></i>
                   </div>
                 </div>
