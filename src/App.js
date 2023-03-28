@@ -5,10 +5,14 @@ import Pages from "./pages/Pages";
 import data from "./components/flashDeals/data";
 import { useState } from "react";
 import Cart from "./common/cart/cart";
+import ShData from "./components/shop/shData";
+import Footer from "./components/footer/footer";
 
 function App() {
   // stpe1: fetch data from database
   const { productItems } = data;
+  const { shopItems } = ShData;
+
   const [cartItem, setCardItem] = useState([]);
 
   const addToCart = (product) => {
@@ -49,7 +53,11 @@ function App() {
           <Route
             path="/"
             element={
-              <Pages productItems={productItems} addToCart={addToCart} />
+              <Pages
+                productItems={productItems}
+                addToCart={addToCart}
+                shopItems={shopItems}
+              />
             }
           />
           <Route
@@ -64,8 +72,8 @@ function App() {
             }
           />
         </Routes>
+        <Footer />
       </BrowserRouter>
-      ,
     </>
   );
 }

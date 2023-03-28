@@ -1,0 +1,58 @@
+.shop .category {
+  padding: 30px;
+  height: 90vh;
+}
+.shop .category .box {
+  background: #f6f9fc;
+  margin: 15px 0;
+  transition: 0.5s;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.shop .category .box:hover {
+  background: #fff;
+  box-shadow: rgba(43, 52, 69, 0.1) 0 4px 16px;
+}
+.shop .category img {
+  width: auto;
+  height: auto;
+}
+.shop .category .box2 {
+  margin-top: 100px;
+  text-align: center;
+}
+.shop .category button {
+  padding: 10px;
+  background: none;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+.shop .contentWidth {
+  margin-left: 30px;
+}
+.shop .grid1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.shop .product {
+  transition: 0.5s;
+}
+.shop .product:hover {
+  box-shadow: rgba(43, 52, 69, 0.1) 0 4px 16px;
+}
+.shop .product img {
+  width: 100%;
+}
+
+.chead h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.chead h1:nth-child(2) {
+  opacity: 0, 5;
+  border-left: 3px solid rgba(0, 0, 0, 0.5);
+  padding-left: 70px;
+}/*# sourceMappingURL=shop.css.map */

@@ -35,15 +35,15 @@ const Categories = () => {
       cateName: "Pets",
     },
     {
-      cateImg: "src/common/assets/images/category/cat9.png",
+      cateImg: "./images/category/cat9.png",
       cateName: "Baby Toys",
     },
     {
-      cateImg: "src/common/assets/images/category/cat10.png",
+      cateImg: "./images/category/cat10.png",
       cateName: "Groceries",
     },
     {
-      cateImg: "src/common/assets/images/category/cat11.png",
+      cateImg: "./category/cat11.png",
       cateName: "Books",
     },
   ];

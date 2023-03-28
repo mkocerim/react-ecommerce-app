@@ -1,5 +1,6 @@
 import React from "react";
 import FlashCard from "./flashCard";
+import "./flash.css";
 
 const FlashDeals = ({ productItems, addToCart }) => {
   return (
@@ -7,11 +8,10 @@ const FlashDeals = ({ productItems, addToCart }) => {
       <section className="flash background">
         <div className="container ">
           <div className="heading f_flex">
-            <i className="fa fa-bolt">
-              <h1>Flash Deals</h1>
-            </i>
-            <FlashCard productItems={productItems} addToCart={addToCart} />
+            <i className="fa fa-bolt"></i>
+            <h1>Flash Deals</h1>
           </div>
+          <FlashCard productItems={productItems} addToCart={addToCart} />
         </div>
       </section>
     </>
